@@ -76,7 +76,7 @@ export const yearObject = {
       return value <= new Date().getFullYear() || "Must be in the Past";
     },
 
-    notFutureDate: (val, { dayResult, monthResult, yearResult }) => {
+    /* notFutureDate: (val, { dayResult, monthResult, yearResult }) => {
       const currentDate = new Date();
 
       const inputDate = new Date(
@@ -87,6 +87,6 @@ export const yearObject = {
         currentDate.getTime() > inputDate.getTime() || "The date is invalid"
       );
       // return currentDate > inputDate || "The date is invalid";
-    },
+    },*/
   },
 };
