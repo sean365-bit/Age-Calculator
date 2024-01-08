@@ -16,7 +16,7 @@ export default function LabelInput() {
     const { dayResult, monthResult, yearResult } = data;
 
     const days = calcAge(monthResult, dayResult, yearResult);
-
+    // alert(days);
     setDaysResult(days[0]);
     setMonthsResult(days[1]);
     setYearsResult(days[2]);
